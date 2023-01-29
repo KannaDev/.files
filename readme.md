@@ -13,7 +13,7 @@ my dotfiles heavily inspired by ( a clone of ) [some dotfiles i found on r/unixp
 
 ## Stuff you will need to install
 
-- [Starhip](https://starship.rs/guide/#%F0%9F%9A%80-installation) 
+- [Starship](https://starship.rs/guide/#%F0%9F%9A%80-installation) 
 - `sudo apt-get install zsh`
 - [oh my zsh](https://ohmyz.sh/)
 - `sudo apt-get install i3` ( make sure this is version 4.22+ )
@@ -21,8 +21,19 @@ my dotfiles heavily inspired by ( a clone of ) [some dotfiles i found on r/unixp
 - `sudo apt-get -y install nitrogen`
 - [picom](https://github.com/yshui/picom) - Transparent background on alacritty
 - [rustup](https://rustup.rs/)
-- `cargo install alacritty`
+- `cargo install alacritty` - [Make alacritty a desktop app](https://github.com/alacritty/alacritty/blob/master/INSTALL.md#post-build)
 - `sudo apt install rofi`
+
+
+## Setting up firacode nerd font
+
+- `mkdir tmp && cd tmp`
+- `wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.3/FiraMono.zip` 
+- `mkdir ~/.fonts` ( if you dont already have one )
+- `cp FiraMono.zip ~/.fonts && cd ~/.fonts`
+- `unzip FiraMono.zip`
+- `fc-cache -fv`
+
 
 ---
 
