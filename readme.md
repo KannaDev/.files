@@ -23,7 +23,7 @@ my dotfiles heavily inspired by ( a clone of ) [some dotfiles i found on r/unixp
 - `sudo apt-get -y install nitrogen`
 - [picom](https://github.com/yshui/picom) - Transparent background on alacritty
 - [rustup](https://rustup.rs/)
-- `cargo install alacritty` - [Make alacritty a desktop app](https://github.com/alacritty/alacritty/blob/master/INSTALL.md#post-build)
+- [alacritty](https://github.com/alacritty/alacritty/blob/master/INSTALL.md#debianubuntu) - [Make alacritty a desktop app](https://github.com/alacritty/alacritty/blob/master/INSTALL.md#post-build)
 - `sudo apt install rofi`
 
 
