@@ -1,4 +1,4 @@
-[![Example]](https://cdn.discordapp.com/attachments/974990596030758922/1069325890967834724/image.png)
+![Example](https://cdn.discordapp.com/attachments/974990596030758922/1069325890967834724/image.png)
 
 # Dot files
 
