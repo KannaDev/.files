@@ -1,3 +1,5 @@
+[![Example]](https://cdn.discordapp.com/attachments/974990596030758922/1069325890967834724/image.png)
+
 # Dot files
 
 my dotfiles heavily inspired by ( a clone of ) [some dotfiles i found on r/unixporn](https://www.reddit.com/r/unixporn/comments/108amd2/i3gaps_eimiko_on_lesbian_debian_linux/). This was build on POPos and is designed for debian based linux distros.
@@ -16,7 +18,7 @@ my dotfiles heavily inspired by ( a clone of ) [some dotfiles i found on r/unixp
 - [Starship](https://starship.rs/guide/#%F0%9F%9A%80-installation) 
 - `sudo apt-get install zsh`
 - [oh my zsh](https://ohmyz.sh/)
-- `sudo apt-get install i3` ( make sure this is version 4.22+ )
+- [i3](https://i3wm.org/docs/repositories.html) ( make sure this is version 4.22+ )
 - `sudo apt install polybar`
 - `sudo apt-get -y install nitrogen`
 - [picom](https://github.com/yshui/picom) - Transparent background on alacritty
