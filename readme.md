@@ -1,6 +1,6 @@
 # Dot files
 
-my dotfiles heavily inspired by ( a clone of ) [some dotfiles i found on r/unixporn](https://www.reddit.com/r/unixporn/comments/108amd2/i3gaps_eimiko_on_lesbian_debian_linux/). Thiswas build on POPos and is designed for debian based linux distros.
+my dotfiles heavily inspired by ( a clone of ) [some dotfiles i found on r/unixporn](https://www.reddit.com/r/unixporn/comments/108amd2/i3gaps_eimiko_on_lesbian_debian_linux/). This was build on POPos and is designed for debian based linux distros.
 
 ## Includes
 
