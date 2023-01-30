@@ -21,6 +21,7 @@ my dotfiles heavily inspired by ( a clone of ) [some dotfiles i found on r/unixp
 - [i3](https://i3wm.org/docs/repositories.html) ( make sure this is version 4.22+ )
 - `sudo apt install polybar`
 - `sudo apt-get -y install nitrogen`
+- `sudo apt-get install neofetch`
 - [picom](https://github.com/yshui/picom) - Transparent background on alacritty
 - [rustup](https://rustup.rs/)
 - [alacritty](https://github.com/alacritty/alacritty/blob/master/INSTALL.md#debianubuntu) - [Make alacritty a desktop app](https://github.com/alacritty/alacritty/blob/master/INSTALL.md#post-build)
