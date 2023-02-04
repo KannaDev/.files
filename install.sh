@@ -96,7 +96,7 @@ cp -r rofi ~/.config
 cp -r wallpaper ~/Pictures/
 cp zsh/.zshrc ~/
 cp starship.toml ~/.config
-cp picom.confg ~/.config/picom
+cp picom.conf ~/.config/picom
 
 echo "\n\nIt should be fished!! 🤞"
 
