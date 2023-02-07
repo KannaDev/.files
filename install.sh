@@ -1,4 +1,7 @@
-# Cloning Repo into .config
+if [ "$EUID" -ne 0 ]
+  then echo "Please run as root"
+  exit
+fi
 
 distro=$(uname -n)
 
@@ -9,6 +12,7 @@ else
     echo "Pop!_OS detected, proceeding with the script..."
   # Add the commands that you want to run only on Pop!_O>
 
+    # Cloning Repo into .config
 
     echo "Cloning the repo into ~/.config/dotfiles"
     git clone https://github.com/kttykat/.files ~/.config/dotfiles
