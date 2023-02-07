@@ -98,7 +98,14 @@ else
     cd ~/
     sudo rm -r tmp
 
-    echo "\n\nCopying Folders over"
+    echo "\n\nCopying Folders over and editing configs"
+
+    whoami=$(whoami)
+
+    sed -i "s/saige/$username/g" nitrogen/nitrogen.cfg
+
+    resolution=xdpyinfo | grep dimensions | sed -r 's/^[^0-9]*([0-9]+x[0-9]+).*$/\1/'
+    sed -i "1920x1080/$resolution/g" i3/config
 
     cd ~/.config/dotfiles
     cp -r alacritty ~/.config/
