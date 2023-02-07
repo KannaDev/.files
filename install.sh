@@ -12,7 +12,7 @@ if [ "$distro" != "pop-os" ]; then
   exit 1
 else
     echo "Pop!_OS detected, proceeding with the script..."
-  # Add the commands that you want to run only on Pop!_O>
+  # Add the commands that you want to run only on Pop!_OS
 
 
     echo "Cloning the repo into ~/.config/dotfiles"
