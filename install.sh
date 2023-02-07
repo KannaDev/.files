@@ -105,8 +105,10 @@ else
     sed -i "s/saige/$username/g" nitrogen/nitrogen.cfg
 
     resolution=xdpyinfo | grep dimensions | sed -r 's/^[^0-9]*([0-9]+x[0-9]+).*$/\1/'
-    sed -i "1920x1080/$resolution/g" i3/config
+    sed -i "s/1920x1080/$resolution/g" i3/config
 
+    sed -i "s/saige/${username}/g" nitrogen/bg-saved.cfg
+    
     cd ~/.config/dotfiles
     cp -r alacritty ~/.config/
     cp -r i3 ~/.config
