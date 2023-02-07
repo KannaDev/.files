@@ -1,43 +1,39 @@
 ![Example](https://cdn.discordapp.com/attachments/974990596030758922/1069325890967834724/image.png)
 
-# Dot files
+A recreation of a debian rice that i found on [r/unixporn](https://www.reddit.com/r/unixporn/comments/108amd2/i3gaps_eimiko_on_lesbian_debian_linux/). This was setup, tested and ran on both PopOS & Ubuntu although the installer is desinated for PopOS.
 
-my dotfiles heavily inspired by ( a clone of ) [some dotfiles i found on r/unixporn](https://www.reddit.com/r/unixporn/comments/108amd2/i3gaps_eimiko_on_lesbian_debian_linux/). This was build on POPos and is designed for debian based linux distros.
+---
+### What this setup includes:
 
-## Includes
-
-- A pinked out layout of catppuccin
-- i3 Window manager
-- Rofi 
+- The I3 WM
 - Polybar
-- ZSH & Starship
+- Rofi
+- Nitrogen
+- Starship
+- Alacritty
+- Neovim
+- Neofetch
+- ZSH & Oh my ZSH
 
+---
+### Installing:
 
-## Stuff you will need to install
+1. Execute `install.sh` with sudo permissions.
+2. Reboot your system
+3. In the login screen ( where you enter your password ), select a gear at the top right ( or bottom right ) of the screen and select I3
+4. Sign in
+5. `ALT + ENTER` -> `nitrogen`
+6. Preferences ( on the bottom right )
+7. Add a directory and select the downloaded repos `wallpaper` folder and your `~/Pictures/Wallpapers` folder
+8. Ok -> Select your screen on the bottom left -> double tap your wallpaper of choice then click apply
 
-- [Starship](https://starship.rs/guide/#%F0%9F%9A%80-installation) 
-- `sudo apt-get install zsh`
-- [oh my zsh](https://ohmyz.sh/)
-- [i3](https://i3wm.org/docs/repositories.html) ( make sure this is version 4.22+ )
-- `sudo apt install polybar`
-- `sudo apt-get -y install nitrogen`
-- `sudo apt-get install neofetch`
-- [picom](https://github.com/yshui/picom) - Transparent background on alacritty
-- [rustup](https://rustup.rs/)
-- [alacritty](https://github.com/alacritty/alacritty/blob/master/INSTALL.md#debianubuntu) - [Make alacritty a desktop app](https://github.com/alacritty/alacritty/blob/master/INSTALL.md#post-build)
-- `sudo apt install rofi`
+---
+### Credits:
 
-
-## Setting up firacode nerd font
-
-- `mkdir tmp && cd tmp`
-- `wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.3/FiraMono.zip` 
-- `mkdir ~/.fonts` ( if you dont already have one )
-- `cp FiraMono.zip ~/.fonts && cd ~/.fonts`
-- `unzip FiraMono.zip`
-- `fc-cache -fv`
+- Thank you [@KannaDev](https://github.com/KannaDev) for setting up and fixing the install script
 
 
 ---
+### Support:
 
-If you run into any issues please feel free to report them on the `issues` tab or contact me on discord -> `saige#0934`
+If you run into any issues please open a issue in the issue tab on this repo and i will try to assist you.
